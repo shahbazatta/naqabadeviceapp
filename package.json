@@ -1,0 +1,22 @@
+{
+  "name": "udpserver",
+  "version": "1.0.0",
+  "description": "GPS data receiver",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "GPS",
+    "UDP"
+  ],
+  "author": "Mohammad Idris",
+  "license": "ISC",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "glob": "^8.1.0",
+    "mongodb": "^3.7.3",
+    "redis": "^4.6.5",
+    "teltonika-parser": "^0.0.15"
+  }
+}
